@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Piedra Papel Tijera</title>
+
+ <style>
+  html {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #222;
+   color: #ddd;
+  }
+
+  a {
+   color: inherit;
+
+  }
+ </style>
+</head>
+
+<body>
+ <h1>Piedra Papel Tijera</h1>
+ <h3>Abrir consola con <code>F12</code></h3>
+
+ <h4>Colores en consola</h4>
+ <p>Ver el siguiente <a href="https://stackoverflow.com/questions/9781218/how-to-change-node-jss-console-font-color"
+   target="_blank" rel="noreferrer">link stackoverflow</a> con la data</p>
+ <p>Principalmente se usan este listado de codigos de colores, pero deben estar siempre unidos (color + fondo), por más
+  que el fondo no se vea</p>
+
+ <h3 style="display:inline">\código_color</h3>
+ <h3 style="display: inline; color: #940">
+  %s</h3>
+ <h3 style="display: inline">\código_fondo</h3>
+
+
+ <p><strong>Ejemplo</strong>
+  <br />
+  console.log("\x1b[36m<strong style="color: #940">%s</strong>\x1b[0m", "I am cyan");
+ </p>
+
+ <script type="module" src="./ppt.js"></script>
+
+</body>
+
+</html>
